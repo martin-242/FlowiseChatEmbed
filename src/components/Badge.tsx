@@ -51,17 +51,17 @@ export const Badge = (props: Props) => {
       "text-align": 'center',
       color: props.poweredByTextColor ?? defaultTextColor,
       "background-color": props.badgeBackgroundColor ?? '#ffffff'
-    }}>Powered by
+    }}>Powered by 
       <a
         ref={liteBadge}
-        href={'https://omegamind.ai'}
+        href={'https://mind242.ai'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
         style={{ "font-weight": 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> OmegaMind AI </span>
+        <span>Mind242 AI</span>
       </a>
     </span>
   )
